@@ -1,0 +1,57 @@
+/* Reset básico */
+body, h1, h2, p, video {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+.video-central, .video-fila {
+    margin-bottom: 2rem;
+}
+
+.video-central video {
+    width: 100%;
+    height: auto;
+}
+
+.video-fila {
+    text-align: center;
+}
+
+.video-lista {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.video-lista video {
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+}
+
+footer {
+    background-color: #282c34;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
